@@ -3,11 +3,11 @@ import 'dart:io';
 void main () {
   stdout.write("masukkan nilai uts: ");
   int uts = int.parse(stdin.readLineSync()!);
-
+//meminta input pengguna
 
   stdout.write("masukkan nilai uas: ");
   int uas = int.parse(stdin.readLineSync()!);
-  //meminta input dari pengguna
+//meminta input dari pengguna
 
 stdout.write("masukkan presentase kehadiran: ");
 double kehadiran = double.parse(stdin.readLineSync()!);
